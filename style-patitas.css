@@ -37,6 +37,7 @@ section {
     border-radius: 10px;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(8, 167, 167);
 }
  #inicio h2, #inicio img{
     text-align: center;
@@ -93,4 +94,22 @@ ul li{
 
 #mision-vision article{
     margin-bottom: 100px;
+}
+
+#adopciones img{
+    margin-left: 20px;
+    width: 30%;
+}
+
+#adopciones button{
+    width: 20%;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: #f4cb14;
+}
+
+button{
+    cursor: pointer;
 }
