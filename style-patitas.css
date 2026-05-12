@@ -71,3 +71,26 @@ ul li{
     margin-top: 20px;
     padding-top: 40px;
 }
+
+#mision-vision{
+    text-align: center;
+    img{
+        margin: 20px;
+    }
+    p{
+        font-weight: bolder;
+    }
+}
+
+#mision-vision article img{
+    width: 50%; 
+    max-width: 600px;
+    height: 300px;
+    display: block;
+    margin: 0 auto 20px auto; 
+    border-radius: 8px;
+}
+
+#mision-vision article{
+    margin-bottom: 100px;
+}
