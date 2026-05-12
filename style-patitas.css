@@ -166,3 +166,7 @@ h1,h2{
     color: rgba(75, 6, 6, 0.922);
     background-color: #f4cb14;
 }
+
+footer{
+    padding: 40px;
+}
