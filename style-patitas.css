@@ -10,7 +10,30 @@ body {
 
 header {
     background-color: #deac09; 
-    padding: 20px;
+    padding: 10px 20px;
     text-align: left;
     border-top: 20px solid #d48806; 
+}
+
+
+section {
+    padding: 40px;
+    max-width: 900px;
+    margin: auto; 
+    border-bottom: 1px solid #1e293b;
+}
+
+#titulo img{
+    margin-left: -700px;
+    position: relative;
+    top: -100px;
+}
+
+#titulo button{
+    position: relative;
+    top: -150px;
+    left: 250px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
 }
