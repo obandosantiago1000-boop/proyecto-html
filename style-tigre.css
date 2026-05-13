@@ -15,6 +15,14 @@ body {
 
 
 
+
+
+
+
+
+
+
+
 header {
     background-color: #deac09;
     padding: 10px 20px ;
@@ -24,7 +32,15 @@ header {
 
 
 
+
+
+
+
 }
+
+
+
+
 
 
 
@@ -34,6 +50,10 @@ section {
     max-width: 900px;
     margin: auto;
 }
+
+
+
+
 
 
 
@@ -51,11 +71,27 @@ img{
 
 
 
+
+
+
+
 ul li{
     font-weight: bold;
     color: #272523f5;
     font-size: large;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -85,9 +121,21 @@ button{
 
 
 
+
+
+
+
+
+
+
+
 h1,h2{
     color: rgba(177, 25, 25, 0.55);
 }
+
+
+
+
 
 
 
@@ -101,6 +149,10 @@ h1,h2{
 
 
 
+
+
+
+
 p{
     font-size: larger;
 }
@@ -108,11 +160,11 @@ p{
 
 
 
+
+
+
+
 #collage img{
-    width: 50%;
-    max-width: 600px;
-    height: 400px;
-    display: block;
     margin: 0 auto 20px auto;
 }
 
@@ -130,10 +182,91 @@ p{
 }
 
 
+.carrusel{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+
+.carrusel img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    animation: cambio 15s infinite;
+}
+
+
+.carrusel img:nth-child(1){
+    animation-delay: 0s;
+}
+
+
+.carrusel img:nth-child(2){
+    animation-delay: 3s;
+}
+
+
+.carrusel img:nth-child(3){
+    animation-delay: 6s;
+}
+
+
+.carrusel img:nth-child(4){
+    animation-delay: 9s;
+}
+.carrusel img:nth-child(5){
+    animation-delay: 12s;
+}
+
+
+@keyframes cambio{
+
+
+    0%{
+        opacity: 0;
+    }
+
+
+    10%{
+        opacity: 1;
+    }
+
+
+    30%{
+        opacity: 0;
+    }
+
+
+    40%{
+        opacity: 0;
+    }
+
+
+    100%{
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
 @keyframes latir {
     0% {
         transform: scale(1);
     }
+
+
 
 
     50% {
@@ -141,10 +274,14 @@ p{
     }
 
 
+
+
     100% {
         transform: scale(1);
     }
 }
+
+
 
 
 @keyframes agrandar {
@@ -153,9 +290,13 @@ p{
     }
 
 
+
+
     50% {
         transform: scale(1.5);
     }
+
+
 
 
     100% {
@@ -164,14 +305,20 @@ p{
 }
 
 
+
+
 button:hover {
     animation: latir 1s infinite;
 }
 
 
+
+
 img:hover {
     animation: agrandar 10s infinite;
 }
+
+
 
 
 @keyframes entrar-derecha {
@@ -181,6 +328,8 @@ img:hover {
     }
 
 
+
+
     to {
         transform: translateX(0);
         opacity: 1;
@@ -188,9 +337,13 @@ img:hover {
 }
 
 
+
+
 section {
     animation: entrar-derecha 1s ease-in-out;
 }
+
+
 
 
 @keyframes deslizar-arriba {
@@ -200,11 +353,15 @@ section {
     }
 
 
+
+
     to {
         transform: translateY(0);
         opacity: 1;
     }
 }
+
+
 
 
 h1,
@@ -213,10 +370,14 @@ h2 {
 }
 
 
+
+
 @keyframes aparecer-suave {
     from {
         opacity: 0;
     }
+
+
 
 
     to {
@@ -224,12 +385,22 @@ h2 {
     }
 
 
+
+
 }
+
+
 
 
 p {
     animation: aparecer-suave 2s ease-in-out;
 }
+
+
+
+
+
+
 
 
 
@@ -243,6 +414,8 @@ p {
         height: auto;
     }
 }
+
+
 
 
 /* Para teléfonos */
