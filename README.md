@@ -308,11 +308,11 @@ Este proyecto fue desarrollado con fines educativos para aplicar conocimientos d
 
 # Capturas del proyecto
 
-(capturas/1.png)
-(capturas/2.png)
-(capturas/3.png)
-(capturas/4.png)
-(capturas/5.png)
+![Captura 1](capturas/1.png)
+![Captura 2](capturas/2.png)
+![Captura 3](capturas/3.png)
+![Captura 4](capturas/4.png)
+![Captura 5](capturas/5.png)
 
 
 
