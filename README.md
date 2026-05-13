@@ -314,7 +314,13 @@ Este proyecto fue desarrollado con fines educativos para aplicar conocimientos d
 ![Captura 4](capturas/4.png)
 ![Captura 5](capturas/5.png)
 
+---
 
+# LINK FIGMA
+
+https://www.figma.com/design/CMhKVR9wARxBnVLEtkhV1i/Sin-t%C3%ADtulo?node-id=0-1&t=uklPT82BPdUBZmb3-1
+
+---
 
 # Autor
 
