@@ -5,217 +5,125 @@ body {
     margin: 0;
     padding: 0;
     border-right: 20px solid #d48806;
+    text-align: center;
 }
+
+
+
+
 
 
 
 
 header {
     background-color: #deac09;
-    padding: 10px 20px;
+    padding: 10px 20px ;
     text-align: center;
     border-top: 20px solid #d48806;
 
 
+
+
 }
+
+
 
 
 section {
     padding: 40px;
     max-width: 900px;
     margin: auto;
-    border-bottom: 1px solid #1e293b;
 }
 
 
-a{
-    text-decoration: none;
-}
-
-#titulo img {
-    margin-left: -400px;
-    position: relative;
-    top: -100px;
-    border-radius: 100px
-}
 
 
-#titulo button {
-    position: relative;
-    top: -150px;
-    left: 80px;
-    border-radius: 10px;
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(8, 167, 167);
-}
-
-
-#inicio h2,
-#inicio img {
-    text-align: center;
-    font-size: 40px;
-    margin: auto;
-    margin-top: 50px;
-    display: block;
-    width: 300px;
-    height: auto;
-}
-
-
-img {
+img{
     border-radius: 50px;
     border: 3px solid #d46306;
-}
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+ }
 
 
-article {
-    background-color: #deac09;
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(225, 8, 8, 0.922);
-}
 
 
-ul li {
+ul li{
     font-weight: bold;
     color: #272523f5;
     font-size: large;
 }
 
 
-#inicio li {
-    text-align: center;
-    margin-top: 20px;
-    padding-top: 40px;
-}
 
 
-#mision-vision {
-    text-align: center;
 
 
-    img {
-        margin: 20px;
-    }
 
 
-    p {
-        font-weight: bolder;
-    }
-}
 
 
-#mision-vision article img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto 20px auto;
-    border-radius: 8px;
-}
 
 
-#mision-vision article {
-    margin-bottom: 100px;
-}
-
-
-#adopciones img {
-    margin-left: 20px;
-    width: 30%;
-}
-
-
-#adopciones button {
+button{
+    cursor: pointer;
     width: 20%;
     height: 50px;
     font-weight: bold;
     border-radius: 10px;
     margin-left: 20px;
-    background-color: #f4cb14;
-}
-
-
-button {
-    cursor: pointer;
-}
-
-
-#contactos {
-    color: #010b15;
-    text-align: center;
+    background-color: #f4a614;
 }
 
 
 
 
-input {
-    width: 100%;
-    padding: 5px;
-    margin: 10px 0;
-    background-color: rgb(214, 154, 24);
-    border: 1px solid #06b6d4;
-}
-
-
-textarea,
-label {
-    display: flex;
-    margin-top: 20px;
-}
-
-
-textarea {
-    background-color: rgb(214, 154, 24);
-}
-
-
-select {
-    width: 100%;              
-    padding: 10px;
-    margin: 10px 0;
-    background-color: rgb(214, 154, 24);
-}
 
 
 
 
-#contactos button {
-    width: 20%;
-    margin-top: 20px;
-    background-color: #d46306;
-}
-
-
-h1,
-h2 {
+h1,h2{
     color: rgba(177, 25, 25, 0.55);
 }
 
 
-#contactos ul li {
-    margin: 20px 0;
-    padding: 20px;
+
+
+#historia-datos{
+    background-color: #d4a406;
     border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(225, 8, 8, 0.397);
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
 }
 
 
-#contactos p {
+
+
+p{
     font-size: larger;
-    color: rgba(75, 6, 6, 0.922);
-    background-color: #f4cb14;
 }
 
 
-footer {
-    padding: 40px;
+
+
+#collage img{
+    width: 50%;
+    max-width: 600px;
+    height: 400px;
+    display: block;
+    margin: 0 auto 20px auto;
 }
 
 
-article:hover {
+
+
+
+
+
+
+#historia-datos:hover {
     cursor: pointer;
     transform: translateY(-12px);
     box-shadow: 5px 8px 10px;
@@ -330,45 +238,17 @@ p {
 
 /* Para tablets */
 @media screen and (max-width: 780px){
-  #titulo img {
-    max-width: 150px;
-    width: 100%;
-    height: auto;
-    position: static;  
-    margin: 0 auto;    
-    display: block;
-  }
-
-
-  #titulo button {
-    position: static;
-    display: block;
-    margin: 15px auto;
-    width: auto;              
-    padding: 10px 20px;      
-    font-size: 16px;          
-  }
+    #collage img{
+        width: 80%;
+        height: auto;
+    }
 }
 
 
 /* Para teléfonos */
 @media screen and (max-width: 480px){
-  #titulo img {
-    max-width: 120px;
-    width: 100%;
-    height: auto;
-    position: static;
-    margin: 0 auto;
-    display: block;
-  }
-
-
-  #titulo button {
-    position: static;
-    display: block;
-    margin: 10px auto;
-    width: auto;
-    padding: 8px 16px;
-    font-size: 14px;
-  }
+    #collage img{
+        width: 60%;
+        height: auto;
+    }
 }
